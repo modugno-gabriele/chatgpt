@@ -1,0 +1,63 @@
+2025-05-30 10:28:40,883 WARNING  * Debugger is active!
+2025-05-30 10:28:40,883 INFO  * Debugger PIN: 143-488-920
+2025-05-30 10:28:57,673 INFO  * Detected change in '/workspaces/chatgpt/app.py', reloading
+2025-05-30 10:28:57,856 WARNING  * Debugger is active!
+2025-05-30 10:28:57,856 INFO  * Debugger PIN: 143-488-920
+2025-05-30 10:29:29,059 INFO  * Detected change in '/workspaces/chatgpt/app.py', reloading
+2025-05-30 10:29:29,255 WARNING  * Debugger is active!
+2025-05-30 10:29:29,256 INFO  * Debugger PIN: 143-488-920
+2025-05-30 10:44:32,807 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-30 10:44:32,807 INFO [33mPress CTRL+C to quit[0m
+2025-05-30 10:44:32,808 INFO  * Restarting with stat
+2025-05-30 10:44:32,970 WARNING  * Debugger is active!
+2025-05-30 10:44:32,970 INFO  * Debugger PIN: 143-488-920
+2025-05-30 10:44:40,999 INFO 127.0.0.1 - - [30/May/2025 10:44:40] "GET / HTTP/1.1" 200 -
+2025-05-30 10:44:45,441 INFO 127.0.0.1 - - [30/May/2025 10:44:45] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-30 10:44:45,576 INFO 127.0.0.1 - - [30/May/2025 10:44:45] "GET /menu HTTP/1.1" 200 -
+2025-05-30 10:54:03,255 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-30 10:54:03,255 INFO [33mPress CTRL+C to quit[0m
+2025-05-30 10:54:03,255 INFO  * Restarting with stat
+2025-05-30 10:54:03,404 WARNING  * Debugger is active!
+2025-05-30 10:54:03,405 INFO  * Debugger PIN: 143-488-920
+2025-05-30 10:54:36,437 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-30 10:54:36,437 INFO [33mPress CTRL+C to quit[0m
+2025-05-30 10:54:36,438 INFO  * Restarting with stat
+2025-05-30 10:54:36,587 WARNING  * Debugger is active!
+2025-05-30 10:54:36,587 INFO  * Debugger PIN: 143-488-920
+2025-05-30 10:54:41,219 INFO 127.0.0.1 - - [30/May/2025 10:54:41] "GET / HTTP/1.1" 200 -
+2025-05-30 10:54:45,383 INFO 127.0.0.1 - - [30/May/2025 10:54:45] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-30 10:54:45,538 INFO 127.0.0.1 - - [30/May/2025 10:54:45] "GET /menu HTTP/1.1" 200 -
+2025-05-30 10:54:46,634 INFO 127.0.0.1 - - [30/May/2025 10:54:46] "GET /saldo HTTP/1.1" 200 -
+2025-05-30 10:54:47,880 INFO 127.0.0.1 - - [30/May/2025 10:54:47] "GET /menu HTTP/1.1" 200 -
+2025-05-30 10:54:48,713 INFO 127.0.0.1 - - [30/May/2025 10:54:48] "GET /preleva HTTP/1.1" 200 -
+2025-05-30 10:54:54,702 INFO PIN: 1234 | Operazione: Prelievo | Importo: 380 | Esito: OK | Dettaglio: Prelievo riuscito
+2025-05-30 10:54:54,702 INFO 127.0.0.1 - - [30/May/2025 10:54:54] "[32mPOST /preleva HTTP/1.1[0m" 302 -
+2025-05-30 10:54:54,751 INFO 127.0.0.1 - - [30/May/2025 10:54:54] "GET /menu HTTP/1.1" 200 -
+2025-05-30 10:54:57,283 INFO 127.0.0.1 - - [30/May/2025 10:54:57] "GET /versa HTTP/1.1" 200 -
+2025-05-30 10:55:01,782 INFO PIN: 1234 | Operazione: Versamento | Importo: 35 | Esito: OK | Dettaglio: Versamento riuscito
+2025-05-30 10:55:01,783 INFO 127.0.0.1 - - [30/May/2025 10:55:01] "[32mPOST /versa HTTP/1.1[0m" 302 -
+2025-05-30 10:55:01,837 INFO 127.0.0.1 - - [30/May/2025 10:55:01] "GET /menu HTTP/1.1" 200 -
+2025-05-30 10:55:04,233 INFO 127.0.0.1 - - [30/May/2025 10:55:04] "[32mGET /logout HTTP/1.1[0m" 302 -
+2025-05-30 10:55:04,374 INFO 127.0.0.1 - - [30/May/2025 10:55:04] "GET / HTTP/1.1" 200 -
+2025-05-30 10:55:08,469 INFO 127.0.0.1 - - [30/May/2025 10:55:08] "POST / HTTP/1.1" 200 -
+2025-05-30 10:55:13,583 INFO 127.0.0.1 - - [30/May/2025 10:55:13] "[32mPOST / HTTP/1.1[0m" 302 -
+2025-05-30 10:55:13,635 INFO 127.0.0.1 - - [30/May/2025 10:55:13] "GET /menu HTTP/1.1" 200 -
+2025-05-30 10:55:14,616 INFO 127.0.0.1 - - [30/May/2025 10:55:14] "GET /saldo HTTP/1.1" 200 -
+2025-05-30 10:55:15,760 INFO 127.0.0.1 - - [30/May/2025 10:55:15] "GET /menu HTTP/1.1" 200 -
+2025-05-30 10:55:17,113 INFO 127.0.0.1 - - [30/May/2025 10:55:17] "GET /versa HTTP/1.1" 200 -
+2025-05-30 10:55:24,737 INFO PIN: 1234 | Operazione: Versamento | Importo: 65 | Esito: OK | Dettaglio: Versamento riuscito
+2025-05-30 10:55:24,737 INFO 127.0.0.1 - - [30/May/2025 10:55:24] "[32mPOST /versa HTTP/1.1[0m" 302 -
+2025-05-30 10:55:24,784 INFO 127.0.0.1 - - [30/May/2025 10:55:24] "GET /menu HTTP/1.1" 200 -
+2025-05-30 10:55:26,703 INFO 127.0.0.1 - - [30/May/2025 10:55:26] "GET /saldo HTTP/1.1" 200 -
+2025-05-30 10:55:30,037 INFO 127.0.0.1 - - [30/May/2025 10:55:30] "GET /menu HTTP/1.1" 200 -
+2025-05-30 10:55:31,590 INFO 127.0.0.1 - - [30/May/2025 10:55:31] "GET /versa HTTP/1.1" 200 -
+2025-05-30 10:55:34,254 INFO 127.0.0.1 - - [30/May/2025 10:55:34] "GET /menu HTTP/1.1" 200 -
+2025-05-30 10:55:34,935 INFO 127.0.0.1 - - [30/May/2025 10:55:34] "GET /preleva HTTP/1.1" 200 -
+2025-05-30 10:55:40,368 INFO PIN: 1234 | Operazione: Prelievo | Importo: 120 | Esito: OK | Dettaglio: Prelievo riuscito
+2025-05-30 10:55:40,369 INFO 127.0.0.1 - - [30/May/2025 10:55:40] "[32mPOST /preleva HTTP/1.1[0m" 302 -
+2025-05-30 10:55:40,422 INFO 127.0.0.1 - - [30/May/2025 10:55:40] "GET /menu HTTP/1.1" 200 -
+2025-05-30 10:55:42,436 INFO 127.0.0.1 - - [30/May/2025 10:55:42] "GET /saldo HTTP/1.1" 200 -
+2025-05-30 10:55:43,367 INFO 127.0.0.1 - - [30/May/2025 10:55:43] "GET /menu HTTP/1.1" 200 -

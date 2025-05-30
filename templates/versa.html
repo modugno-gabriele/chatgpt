@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>Versamento</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <style>
+        body { background: linear-gradient(135deg, #e0e7ef 0%, #f6f6f6 100%); font-family: 'Roboto', sans-serif; margin:0; }
+        .header { background: #1a237e; color: #fff; padding: 24px 0; text-align: center; font-size: 2rem; font-weight: bold; letter-spacing: 2px; box-shadow: 0 2px 8px #b0b0b0; }
+        .container { max-width: 400px; margin: 40px auto; background: #fff; border-radius: 16px; box-shadow: 0 4px 24px #b0b0b0; padding: 32px 28px; }
+        h2 { color: #1a237e; text-align: center; margin-bottom: 30px; }
+        form { margin-bottom: 20px; }
+        input[type=number] { width: 100%; padding: 12px; margin-bottom: 22px; border: 1px solid #bdbdbd; border-radius: 8px; font-size: 18px; background: #f4f6fa; }
+        button { width: 100%; background: #3949ab; color: #fff; border: none; padding: 14px; border-radius: 8px; font-size: 18px; font-weight: bold; cursor: pointer; transition: background 0.2s; }
+        button:hover { background: #1a237e; }
+        a { display: block; text-align: center; background: #3949ab; color: #fff; text-decoration: none; padding: 14px; border-radius: 8px; font-size: 18px; font-weight: bold; margin-top: 10px; transition: background 0.2s; }
+        a:hover { background: #1a237e; }
+        .messages { margin-top: 10px; }
+        .messages ul { list-style: none; padding: 0; }
+        .messages li { text-align: center; }
+        .success { color: #008000; }
+        .error { color: #d6001c; }
+        @media (max-width: 600px) {
+            .container { max-width: 95vw; padding: 18px 6vw; }
+            .header { font-size: 1.2rem; padding: 16px 0; }
+        }
+    </style>
+</head>
+<body>
+<div class="header">Area Clienti Online</div>
+<div class="container">
+    <h2>Versa Denaro</h2>
+    <form method="post">
+        <input type="number" name="importo" min="1" placeholder="Importo da versare" required>
+        <button type="submit">Versa</button>
+    </form>
+    <a href="{{ url_for('menu') }}">Torna al Menu</a>
+    <div class="messages">
+    {% with messages = get_flashed_messages(with_categories=true) %}
+      {% if messages %}
+        <ul>
+        {% for category, msg in messages %}
+          <li class="{{ category }}">{{ msg }}</li>
+        {% endfor %}
+        </ul>
+      {% endif %}
+    {% endwith %}
+    </div>
+</div>
+</body>
+</html>
